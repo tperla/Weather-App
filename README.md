@@ -1,4 +1,5 @@
 Weather Dashboard 🌦️
+
 This is a simple weather dashboard that shows the weather in four different locations: Eilat, London, New York, and Alaska. The weather information is fetched using the OpenWeatherMap API. The application is built using React and displays the current weather conditions in Hebrew, including temperature, humidity, and a brief weather description. The degrees are shown in Celsius, and the app also displays a weather icon based on the perceived temperature.
 
 Table of Contents
