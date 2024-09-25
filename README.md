@@ -30,17 +30,25 @@ Features
 Technologies
 
 React - Frontend JavaScript framework
+
 OpenWeatherMap API - Weather data provider
+
 HTML5 & CSS3 - Structure and styling
+
 Getting Started
+
 Follow these steps to set up and run the project on your local machine:
 
 Prerequisites
+
 You need to have the following software installed on your system:
 
 Node.js (v12 or higher)
+
 npm (Node package manager, comes with Node.js)
+
 Installation
+
 Clone the repository:
 
 bash
