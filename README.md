@@ -80,22 +80,35 @@ Replace the placeholder API key in the App.js file with your own key:
 javascript
 Copy code
 const apiKey = 'YOUR_API_KEY_HERE'; // Add your OpenWeatherMap API key
+
 Folder Structure
-php
-Copy code
+
 weather-dashboard/
+
 │
+
 ├── public/                # Public directory for static assets
+
 ├── src/                   # Source code
+
 │   ├── components/        # Reusable components
+
 │   │   └── WeatherCard.js # Component to display weather for each location
+
 │   ├── App.js             # Main application component
+
 │   └── index.js           # Entry point for React
+
 │
+
 ├── README.md              # Project documentation
+
 ├── package.json           # Project metadata and dependencies
+
 └── .gitignore             # Files to ignore in Git
+
 How It Works
+
 App.js: The main component that fetches weather data from the OpenWeatherMap API for each city and passes the data to the WeatherCard component.
 WeatherCard.js: A reusable component that displays the weather for a given location, including temperature, humidity, description, and an icon.
 CSS: Basic styling is included in the App.css file. The weather cards are displayed in a grid layout for a neat and responsive design.
